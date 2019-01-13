@@ -1,0 +1,132 @@
+@import url("https://use.typekit.net/rfz8epg.css");
+
+html {
+  background: url(../img/background.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  font-family: sans-serif;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+
+body, main {
+  margin: 0;
+  position: absolute;
+  width: 100vw;
+  height: 100vh;
+  color: #FFFFFF;
+}
+
+h1,
+h2 {
+  font-family: "europa";
+  font-weight: bold;
+  font-style: normal;
+}
+
+h1 {
+  font-size: 54px;
+  margin: 0;
+}
+
+h2 {
+  font-size: 20px;
+  opacity: 0.5;
+}
+
+a, p, b {
+  display: block;
+  font-size: 14px;
+  margin: 2px;
+}
+
+ul {
+  padding: 0;
+  padding-inline-start: 0;
+}
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100vw;
+  text-align: center;
+}
+
+.white {
+  color: #FFFFFF;
+}
+
+.herotext,
+.content {
+  position: relative;
+  text-align: center;
+}
+
+.herotext {
+  margin-top: 35vh;
+  margin-bottom: 5vh;
+
+}
+
+.logo {
+  height:30px;
+  margin:10px 20px;
+}
+
+.service {
+  margin:10px 20px;
+  max-width: 120px;
+  text-align: center;
+}
+
+.hlist {
+  display: inline-block;
+}
+
+.two-column {
+  width: 50%;
+  float: left;
+}
+
+@media (max-width: 1024px) {
+  h1 {
+    font-size: 32px;
+  }
+  h2 {
+    font-size: 16px;
+  }
+  .logo {
+    height: 20px;
+  }
+  .service {
+    margin:8px 15px;
+    max-width: 80px;
+  }
+}
+
+@media (max-width: 768px) {
+  h2 {
+    font-size: 12px;
+  }
+  .logo {
+    height: 16px;
+  }
+  .service {
+    margin:8px 15px;
+    max-width: 80px;
+  }
+  .herotext {
+    margin-bottom: 20vh;
+  }
+  .two-column {
+    float: none;
+    width: 100%;
+    margin-bottom: 20vh;
+  }
+  .footer {
+    position: relative;
+    width: 100vw;
+  }
+}
